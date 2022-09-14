@@ -1,14 +1,11 @@
 {
-  "name": "@napi-rs/package-template-linux-arm64-gnu",
+  "name": "@zitao/package-template-linux-arm64-gnu",
   "version": "1.0.0",
   "os": [
     "linux"
   ],
   "cpu": [
     "arm64"
-  ],
-  "libc": [
-    "glibc"
   ],
   "main": "package-template.linux-arm64-gnu.node",
   "files": [
@@ -31,5 +28,8 @@
     "registry": "https://registry.npmjs.org/",
     "access": "public"
   },
-  "repository": "git@github.com:napi-rs/package-template.git"
+  "repository": "git@github.com:Lizitao610/napi-package-template.git",
+  "libc": [
+    "glibc"
+  ]
 }
